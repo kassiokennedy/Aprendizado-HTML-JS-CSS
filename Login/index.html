@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+  https://www.youtube.com/watch?v=LUMFITn510U
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background: rgb(50, 170, 70);
+      }
+      form {
+        background-color: white;
+        min-width: 500px;
+        max-width: 500px;
+        padding: 20px;
+        width: 60%;
+
+        /* o que tem abaixo centraliza o formularo na tela */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      form h3 {
+        text-align: center;
+        color: rgb(50, 170, 70);
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h3>Login</h3>
+      <input type="text" name="user" placeholder="Usuário" />
+      <input type="password" name="senha" placeholder="Senha" />
+      <input type="submit" name="acao" value="Entrar" />
+    </form>
+  </body>
+</html>
